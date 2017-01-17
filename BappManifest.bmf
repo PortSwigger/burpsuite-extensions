@@ -1,0 +1,11 @@
+Uuid: ec94f32a5b1f467bbb1459398818156f
+ExtensionType: 1
+Name: SAMLReQuest
+ScreenVersion: 2.1
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: Ahmad Abolhadid
+ShortDescription: Enables pentesters to view, decode and modify SAML Authentication requests and test the Identification Provider response to their manipulations
+EntryPoint: build/libs/saml-re-quest-all.jar
+BuildCommand: gradle -PburpJar=$BURP_JAR fatJar

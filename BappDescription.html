@@ -1,0 +1,22 @@
+<p>Security Assertion Markup Language (SAML) is used in many SSO
+implementations, which authenticate the user once to access several Service
+Providers (SP). When a user tries to access a SP, it redirects the user to an
+Identification Provider (IdP) and adds "SAML authentication request" to the
+redirection request, to which the user is authenticated according. SAML ReQuest
+Burp extension enables pentesters to view, decode and modify SAML
+Authentication requests and test IdP's response to their manipulations.</p>
+
+<ul>
+  It supports the following features:
+
+  <li>
+    Decoding SAML authentication requests, whether compressed in the URL
+    (HTTP Redirection Binding) or not compressed in POST body (HTTP POST
+    Binding)
+  </li>
+  <li>
+    Displays the decoded SAML authentication request in Proxy Intercept,
+    Proxy History and Repeater tabs
+  </li>
+</ul>
+
