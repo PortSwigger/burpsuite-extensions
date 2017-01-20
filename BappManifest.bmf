@@ -6,6 +6,6 @@ SerialVersion: 0
 MinPlatformVersion: 0
 ProOnly: False
 Author: Ahmad Abolhadid
-ShortDescription: Enables pentesters to view, decode and modify SAML Authentication requests and test the Identification Provider response to their manipulations
+ShortDescription: Enables you to view, decode, and modify SAML requests and responses.
 EntryPoint: build/libs/saml-re-quest-all.jar
 BuildCommand: gradle fatJar
