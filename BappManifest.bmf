@@ -2,7 +2,7 @@ Uuid: ec94f32a5b1f467bbb1459398818156f
 ExtensionType: 1
 Name: SAMLReQuest
 ScreenVersion: 2.1
-SerialVersion: 0
+SerialVersion: 1
 MinPlatformVersion: 0
 ProOnly: False
 Author: Ahmad Abolhadid
